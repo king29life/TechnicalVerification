@@ -29,6 +29,8 @@ namespace knomoto
 
         private void HandleLog(string message, string stackTrace, LogType type)
         {
+            // フィルター
+            //if (type == LogType.Warning) return;
             debugText.text += message + " \n";
             Canvas.ForceUpdateCanvases();
             scrollRect.verticalNormalizedPosition = 0;
