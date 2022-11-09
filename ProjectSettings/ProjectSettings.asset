@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 1.0.0.0
   preloadedAssets:
   - {fileID: 0}
   metroInputSource: 0
@@ -146,11 +146,13 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
+  enableOpenGLProfilerGPURecorders: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
@@ -676,6 +678,7 @@ PlayerSettings:
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
   ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
@@ -721,7 +724,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: TechnicalVerification
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Git\TechnicalVerification\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: kn
   metroCertificateIssuer: kn
@@ -749,7 +752,7 @@ PlayerSettings:
   metroTargetDeviceFamilies: {}
   metroFTAName: 
   metroFTAFileTypes: []
-  metroProtocolName: 
+  metroProtocolName: technicalverification
   vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 

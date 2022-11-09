@@ -36,7 +36,7 @@ namespace knomoto.TechnicalVerification
             // データに関する機能を初期化
             m_DataManager.Initialize();
 
-            await m_DataManager.APIService.GetSample();
+            //await m_DataManager.APIService.GetSample();
         }
     }
 }
